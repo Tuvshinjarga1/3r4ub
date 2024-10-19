@@ -19,7 +19,7 @@
           class="h-7 w-7 object-contain"
         />
         <!-- Page title -->
-        <NuxtLink class="text-xl font-bold" to="/">3R4UB</NuxtLink>
+        <NuxtLink class="text-xl font-bold" to="/">3R4UB project</NuxtLink>
       </div>
 
       <!-- Right side of header -->

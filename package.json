@@ -14,7 +14,8 @@
     "format:prettier": "prettier --write .",
     "generate": "nuxt generate",
     "postinstall": "nuxt prepare",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@morev/vue-transitions": "^3.0.2",
@@ -27,6 +28,7 @@
     "@nuxtjs/tailwindcss": "^6.12.1",
     "@types/chart.js": "^2.9.41",
     "@types/node": "^22.5.4",
+    "gh-pages": "^6.2.0",
     "nuxt": "^3.13.2",
     "nuxt-icon": "^0.6.10",
     "prettier": "^3.3.3",

@@ -1,4 +1,4 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+// nuxt.config.ts
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
@@ -17,13 +17,12 @@ export default defineNuxtConfig({
     head: {
       title: "Analytics",
       link: [
-        // Favicon
         { rel: "icon", type: "image/x-icon", href: "/icon.svg" },
-        //Inter font
         { rel: "stylesheet", href: "https://rsms.me/inter/inter.css" },
         { rel: "preconnect", href: "https://rsms.me/" },
       ],
     },
+    baseURL: process.env.NODE_ENV === 'production' ? '/3r4ub/' : '/',
   },
 
   compatibilityDate: "2024-07-09",

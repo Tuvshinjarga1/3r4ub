@@ -31,10 +31,10 @@
 
 <script setup lang="ts">
   import userImage1 from '@/assets/1.jpg';
-  import userImage2 from '@/assets/Suvdaa.jpg';
-  import userImage3 from '@/assets/tulgaa.jpg';
-  import userImage4 from '@/assets/naraa.jpg';
-  import userImage5 from '@/assets/ODKO.jpg';
+import userImage4 from '@/assets/naraa.jpg';
+import userImage5 from '@/assets/ODKO.jpg';
+import userImage2 from '@/assets/Suvdaa.jpg';
+import userImage3 from '@/assets/tulgaa.jpg';
   const users = [
     {
       id: 1,

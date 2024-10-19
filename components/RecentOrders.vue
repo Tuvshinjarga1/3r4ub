@@ -42,12 +42,12 @@ export default {
   data() {
     return {
       recyclingProducts: [
-        { name: 'Хуванцар сав', quantity: '1ш', price: '100 төгрөг' },
+        { name: 'Хуванцар сав', quantity: '1кг', price: '100 төгрөг' },
         { name: 'Цаас', quantity: '1кг', price: '500 төгрөг' },
-        { name: 'Шилэн сав', quantity: '1ш', price: '300 төгрөг' },
-        { name: 'Металл лааз', quantity: '1ш', price: '200 төгрөг' },
+        { name: 'Шилэн сав', quantity: '1кг', price: '300 төгрөг' },
+        { name: 'Металл лааз', quantity: '1кг', price: '200 төгрөг' },
         { name: 'Картон хайрцаг', quantity: '1кг', price: '400 төгрөг' },
-        { name: 'Гялгар уут', quantity: '1ш', price: '50 төгрөг' },
+        { name: 'Гялгар уут', quantity: '1кг', price: '50 төгрөг' },
       ],
     };
   },

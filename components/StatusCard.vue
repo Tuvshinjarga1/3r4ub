@@ -9,7 +9,7 @@
         </span>
       </div>
 
-      <p class="mt-1.5 text-xl font-extrabold">45,231.89 тонн</p>
+      <p class="mt-1.5 text-xl font-extrabold">45,231.89 кг</p>
       <p class="text-xs text-muted-foreground">Өнгөрсөн сараас 20% нэмэгдсэн</p>
     </div>
     <!-- Sales -->
@@ -21,7 +21,7 @@
         </span>
       </div>
 
-      <p class="mt-1.5 text-xl font-extrabold">34,231 тонн</p>
+      <p class="mt-1.5 text-xl font-extrabold">34,231 кг</p>
       <p class="text-xs text-muted-foreground">Өнгөрсөн сараас 3.5% их</p>
     </div>
   </section>

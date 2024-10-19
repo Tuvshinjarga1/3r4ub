@@ -15,10 +15,14 @@
           </tr>
         </thead>
         <tbody>
-          <tr v-for="n in 6" class="border-b text-left text-sm last:border-b-0 hover:bg-muted">
-            <td class="p-4">Хуванцар сав</td>
-            <td class="p-4">1ш</td>
-            <td class="p-4">100 төгрөг</td>
+          <tr
+            v-for="(product, index) in recyclingProducts"
+            :key="index"
+            class="border-b text-left text-sm last:border-b-0 hover:bg-muted"
+          >
+            <td class="p-4">{{ product.name }}</td>
+            <td class="p-4">{{ product.quantity }}</td>
+            <td class="p-4">{{ product.price }}</td>
             <td class="p-4">
               <div class="flex items-center gap-3">
                 <button>
@@ -32,3 +36,20 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      recyclingProducts: [
+        { name: 'Хуванцар сав', quantity: '1ш', price: '100 төгрөг' },
+        { name: 'Цаас', quantity: '1кг', price: '500 төгрөг' },
+        { name: 'Шилэн сав', quantity: '1ш', price: '300 төгрөг' },
+        { name: 'Металл лааз', quantity: '1ш', price: '200 төгрөг' },
+        { name: 'Картон хайрцаг', quantity: '1кг', price: '400 төгрөг' },
+        { name: 'Гялгар уут', quantity: '1ш', price: '50 төгрөг' },
+      ],
+    };
+  },
+};
+</script>

@@ -1,6 +1,6 @@
 <template>
   <div class="mt-5">
-    <p class="font-bold">Sales over time</p>
+    <p class="font-bold">Дахин боловсруулсан хог хаягдал</p>
     <div class="mt-5 h-[300px] rounded-lg border bg-background md:p-3">
       <Line :data="data" :options="options" />
     </div>
@@ -8,20 +8,20 @@
 </template>
 
 <script setup lang="ts">
-  import {
-    Chart as ChartJS,
-    CategoryScale,
-    LinearScale,
-    PointElement,
-    LineElement,
-    Title,
-    Tooltip,
-    Legend,
-    type ChartOptions,
-    type ChartData,
-  } from "chart.js";
-  import { Line } from "vue-chartjs";
   import colors from "#tailwind-config/theme/colors";
+import {
+  CategoryScale,
+  Chart as ChartJS,
+  Legend,
+  LinearScale,
+  LineElement,
+  PointElement,
+  Title,
+  Tooltip,
+  type ChartData,
+  type ChartOptions,
+} from "chart.js";
+import { Line } from "vue-chartjs";
 
   ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
@@ -64,7 +64,7 @@
     labels: ["1-р сар", "2-р сар", "3-р сар", "4-р сар", "5-р сар", "6-р сар", "7-р сар"],
     datasets: [
       {
-        label: "Sales over time",
+        label: "боловсруулсан тонн",
         backgroundColor: colors.background,
         tension: 0.4,
         borderColor: colors.blue[500],

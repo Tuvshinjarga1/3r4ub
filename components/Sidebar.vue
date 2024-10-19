@@ -62,9 +62,9 @@
       ],
     },
     {
-      title: "Борлуулалтын бүс",
+      title: "Тушаах бүс",
       icon: "heroicons:chart-pie",
-      items: [{ title: "Топ 10" }, { title: "Байршилаар" }, ],
+      items: [{ title: "Топ 10" }, { title: "Байршлаар" }, ],
     },
   ];
 </script>

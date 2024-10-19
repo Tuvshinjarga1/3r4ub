@@ -3,13 +3,13 @@
     <!-- Revenue -->
     <div class="rounded-lg border bg-card p-6">
       <div class="flex items-center justify-between">
-        <p class="text-sm font-medium">Нийт худалдаж авсан</p>
+        <p class="text-sm font-medium">Нийт дахин боловсруулах</p>
         <span class="shrink-0">
           <Icon name="heroicons:banknotes" class="h-4 w-4 text-muted-foreground" />
         </span>
       </div>
 
-      <p class="mt-1.5 text-xl font-extrabold">45,231.89</p>
+      <p class="mt-1.5 text-xl font-extrabold">45,231.89 тонн</p>
       <p class="text-xs text-muted-foreground">Өнгөрсөн сараас 20% нэмэгдсэн</p>
     </div>
     <!-- Sales -->
@@ -21,7 +21,7 @@
         </span>
       </div>
 
-      <p class="mt-1.5 text-xl font-extrabold">34,231</p>
+      <p class="mt-1.5 text-xl font-extrabold">34,231 тонн</p>
       <p class="text-xs text-muted-foreground">Өнгөрсөн сараас 3.5% их</p>
     </div>
   </section>

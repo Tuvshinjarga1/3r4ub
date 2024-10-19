@@ -19,7 +19,7 @@
           class="h-7 w-7 object-contain"
         />
         <!-- Page title -->
-        <NuxtLink class="text-xl font-bold" to="/">Analytics</NuxtLink>
+        <NuxtLink class="text-xl font-bold" to="/">3R4UB</NuxtLink>
       </div>
 
       <!-- Right side of header -->
@@ -37,7 +37,7 @@
             class="flex h-9 w-9 items-center justify-center overflow-hidden rounded-full border bg-background"
           >
             <img
-              src="https://randomuser.me/api/portraits/med/men/75.jpg"
+              src="https://scontent.fuln6-1.fna.fbcdn.net/v/t39.30808-1/445364481_825573039490699_3346147255282323050_n.jpg?stp=cp6_dst-jpg_s200x200&_nc_cat=108&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=BSvGoG6EzLQQ7kNvgEOwkCy&_nc_zt=24&_nc_ht=scontent.fuln6-1.fna&_nc_gid=ASNEsm68HLR7lagr0MUnJEl&oh=00_AYDWC9jfKe8s_hspSO8YhJwk46nV2uUAEsYhNHlj0Jgj5Q&oe=6716DA51"
               alt="Logged in user"
               class="h-full w-full"
             />

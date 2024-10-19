@@ -61,7 +61,7 @@
   });
 
   const data = ref<ChartData<"line">>({
-    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    labels: ["1-р сар", "2-р сар", "3-р сар", "4-р сар", "5-р сар", "6-р сар", "7-р сар"],
     datasets: [
       {
         label: "Sales over time",

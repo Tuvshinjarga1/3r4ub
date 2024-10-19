@@ -15,71 +15,56 @@
 <script setup lang="ts">
   const bottomMenu = [
     {
-      title: "Settings",
+      title: "Тохиргоо",
       icon: "heroicons:cog-8-tooth",
     },
     {
-      title: "Help",
+      title: "Тусламж",
       icon: "heroicons:question-mark-circle",
     },
     {
-      title: "Logout",
+      title: "Гарах",
       icon: "heroicons:arrow-left-on-rectangle",
     },
   ];
   const menu = [
     {
-      title: "Dashboard",
+      title: "Апп-ын мэдээлэлүүд",
       icon: "heroicons:home",
     },
+ 
     {
-      title: "Customers",
-      icon: "heroicons:user-group",
+      title: "Танд ирсэн саналууд",
+      icon: "heroicons:inbox-arrow-down-solid",
       items: [
-        { title: "List" },
-        { title: "Create" },
-        { title: "Edit" },
-        { title: "Delete" },
-        { title: "Details" },
+        { title: "Бүгдийг харах" },
+      
       ],
     },
     {
-      title: "Orders",
-      icon: "heroicons:shopping-cart",
-      items: [
-        { title: "List" },
-        { title: "Create" },
-        { title: "Edit" },
-        { title: "Delete" },
-        { title: "Details" },
-      ],
-    },
-    {
-      title: "Products",
+      title: "Тайлан, Мэдээнүүд",
       icon: "heroicons:cube",
       items: [
-        { title: "List" },
-        { title: "Create" },
-        { title: "Edit" },
-        { title: "Delete" },
-        { title: "Details" },
+        { title: "Тайлан" },
+        { title: "Мэдээнүүд" },
+        
       ],
     },
     {
-      title: "Staff",
+      title: "Хэрэглэгчид",
       icon: "heroicons:user",
       items: [
-        { title: "List" },
-        { title: "Create" },
-        { title: "Edit" },
-        { title: "Delete" },
-        { title: "Details" },
+        { title: "Бүх хэрэглэгчид" },
+        { title: "Шинэ хэрэглэгч нэмэх" },
+        { title: "Хэрэглэгчийн мэдээлэл засах" },
+        { title: "Хэрэглэгч хасах" },
+       
       ],
     },
     {
-      title: "Analytics",
+      title: "Борлуулалтын бүс",
       icon: "heroicons:chart-pie",
-      items: [{ title: "Overview" }, { title: "Statistics" }, { title: "Trends" }],
+      items: [{ title: "Топ 10" }, { title: "Байршилаар" }, ],
     },
   ];
 </script>

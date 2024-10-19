@@ -1,6 +1,6 @@
 <template>
   <div class="sticky top-20 mt-5">
-    <p class="font-bold">Reminders</p>
+    <p class="font-bold">Сургуулиуд</p>
 
     <ul>
       <template v-for="(r, i) in reminders" :key="i">
@@ -20,9 +20,9 @@
 
 <script setup lang="ts">
   const reminders = [
-    { title: "Call John", time: "10:00 AM" },
-    { title: "Meeting with Jane", time: "11:00 AM" },
-    { title: "Call Sally", time: "12:00 PM" },
-    { title: "Lunch with Sarah", time: "1:00 PM" },
+    { title: "1-сургууль", time: "" },
+    { title: "2-р сургууль", time: "" },
+    { title: "3-р сургууль", time: "" },
+    { title: "4-р сургууль", time: "" },
   ];
 </script>
